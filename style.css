@@ -100,4 +100,13 @@
     padding: 20px 15px;
     text-decoration: none;
   }
-  
+
+  @media (max-width: 576px) {
+    img#optionalstuff {
+      display: none;
+    }
+    .contact-link {
+      display: block;
+      text-align: center;
+    }
+  }
