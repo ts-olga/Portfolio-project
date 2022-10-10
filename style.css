@@ -95,10 +95,10 @@
   }
   
   .button-link {
-    margin: 40px;
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
+    text-transform: capitalize;
   }
 
   @media (max-width: 576px) {
