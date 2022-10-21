@@ -205,7 +205,8 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
     line-height: 1.5;
   }
@@ -222,9 +223,17 @@ footer .social-links a:hover {
     padding: 60px 10px;
   }
 
+  .content-container {
+    margin: 0 auto;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .logo {
+    display: inline;
   }
 
   .content-container {
