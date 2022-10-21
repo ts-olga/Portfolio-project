@@ -36,6 +36,7 @@ p {
   font-size: 16px;
   padding: 30px 0px;
 }
+
 .logo {
   max-height: 40px;
 }
@@ -66,15 +67,35 @@ nav li {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 20px 60px;
 }
 
-.btn-details,
-.btn-details:hover {
+.btn-details {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
   color: var(--secondary-color);
   padding: 18px 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-details:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 18px 46px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .hero {
@@ -83,29 +104,23 @@ nav li {
   padding: 100px 20px;
 }
 
-.hero p {
-  font-size: 36px;
-  color: #272142;
-}
-
 .hero h2 {
   font-family: var(--defoult-font-family);
   font-size: 24px;
   font-weight: 400;
   color: #272142;
 }
-
-.btn-branding,
-.btn-branding:hover {
-  background-color: var(--secondary-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 18px 46px;
+.hero p {
+  font-size: 36px;
+  color: #272142;
 }
 
 .content-container {
   margin: 30px auto;
+}
+
+.content {
+  padding: 20px;
 }
 
 .content h1 {
@@ -117,6 +132,15 @@ nav li {
   font-size: 18px;
   font-weight: 700;
   color: #272142;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--defoult-font-family);
+}
+
+.content p {
+  padding: 0 0 15px;
 }
 
 .content img {
@@ -133,18 +157,6 @@ nav li {
   color: var(--secondary-color);
 }
 
-.content {
-  padding: 20px;
-}
-
-.content p {
-  padding: 0 0 15px;
-}
-
-.content h3 {
-  font-size: 24px;
-  font-family: var(--defoult-font-family);
-}
 footer .contact-box {
   background-color: var(--primary-color);
   margin: 30px;
@@ -186,6 +198,7 @@ footer .social-links a:hover {
   color: var(--secondary-color);
   font-size: 25px;
 }
+
 .icon:hover {
   color: var(--secondary-color);
   font-size: 30px;
@@ -204,6 +217,7 @@ footer .social-links a:hover {
   h3 {
     font-size: 26px;
   }
+
   .hero {
     padding: 60px 10px;
   }
